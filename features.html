@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitur CodeCraft</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #1f1c2c, #928dab);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      padding: 2rem;
+    }
+    nav ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .fitur-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .fitur-box {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 10px;
+      width: 280px;
+      text-align: center;
+    }
+    .fitur-box img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    h2, h3 {
+      text-align: center;
+    }
+    video {
+      display: block;
+      margin: 2rem auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>CodeCraft</h1>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="features.html">Fitur</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Fitur Unggulan CodeCraft</h2>
+
+    <div class="fitur-container">
+      <div class="fitur-box">
+        <img src="IMG/Module1.png" alt="Belajar Interaktif">
+        <h3>Belajar Interaktif</h3>
+        <p>Materi disampaikan dengan visualisasi dan latihan langsung. Cocok untuk pemula yang ingin belajar sambil praktik.</p>
+      </div>
+
+      <div class="fitur-box">
+        <img src="IMG/Module2.png" alt="Kuis & Evaluasi">
+        <h3>Kuis & Evaluasi</h3>
+        <p>Setiap modul dilengkapi kuis untuk menguji pemahamanmu secara real-time dan memberikan feedback otomatis.</p>
+      </div>
+
+      <div class="fitur-box">
+        <img src="IMG/Module3.png" alt="Sertifikat Digital">
+        <h3>Sertifikat Digital</h3>
+        <p>Setelah menyelesaikan kursus, kamu akan mendapatkan sertifikat digital sebagai bukti keterampilan kamu.</p>
+      </div>
+    </div>
+
+    <h3>Cuplikan Video Pembelajaran</h3>
+    <video controls width="400">
+      <source src="VIDEO/Pemdas1.mp4" type="video/mp4">
+      Browser Anda tidak mendukung video.
+    </video>
+  </main>
+</body>
+</html>
